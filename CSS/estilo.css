@@ -1,0 +1,29 @@
+@charset "UTF-8";
+header{
+    width: 1000px;
+    height: 80px;
+   /* background-color: aqua;*/
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+}
+#titulo{
+    width: 350px;
+    height: 80px;
+   /* background-color: black;*/
+}
+#titulo h1{
+    color: darkcyan;
+}
+nav{
+    width: 230px;
+    height: 80px;
+   /* background-color: black;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: darkcyan;
+}
