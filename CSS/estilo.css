@@ -2,7 +2,7 @@
 /*Imagem do fundo e tirando a margin*/ 
 body {
     margin: 0;
-    padding: 0;
+    padding: 0;  
     width: 100%;
     height: 100%;
     background-image: url(../IMG/fundo.png);
@@ -43,6 +43,41 @@ header{
     border-top-right-radius: 15px;
  
 }
+#fotoMinha{
+    width: 200px;
+    height: 250px;
+    background-color: #002333;
+    margin-left: 750px;
+    margin-top: -210px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 5px #024959;
+}
+#fotoMinha img{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+#info{
+    width: 350px;
+    height: 250px;
+    /*background-color: #fff;*/
+    margin-left: 80px;
+}
+#info h3{
+    color: #002333;
+}
+#info h2{
+    color: #002333;
+    text-align: center;
+    margin-top:60px ;
+}
+#sla{
+    color: #002333;
+    font-size: 10px;
+   
+}
+
+
 /*parte sobre*/
 #sobre{
     width: 1000px;
