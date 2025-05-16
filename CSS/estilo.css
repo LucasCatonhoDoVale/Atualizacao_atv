@@ -48,7 +48,7 @@ header{
     height: 250px;
     background-color: #002333;
     margin-left: 750px;
-    margin-top: -210px;
+    margin-top: -230px;
     border-radius: 15px;
     box-shadow: 15px 15px 5px #024959;
 }
@@ -60,16 +60,16 @@ header{
 #info{
     width: 350px;
     height: 250px;
-    /*background-color: #fff;*/
     margin-left: 80px;
 }
-#info h3{
+#info p{
     color: #002333;
+    padding: 100px 35px 0 40px ;
 }
 #info h2{
-    color: #002333;
+    color: #159A9C;
     text-align: center;
-    margin-top:60px ;
+    padding: -1000px 0 0 0;
 }
 #sla{
     color: #002333;
@@ -81,11 +81,13 @@ header{
 /*parte sobre*/
 #sobre{
     width: 1000px;
-    height: 450px;
+    height: 350px;
+    background-color: #fff;
+    margin-top: -70px;
 }
 #sobre h1{
     color: #159A9C;
-    margin-top: 100px;
+    padding: 80px 0 0 0 ;
     margin-left: 420px;
     font-size: 35px;
 }
@@ -95,4 +97,206 @@ header{
     width: 750px;
     text-align: center;
     margin: auto;
+}
+
+/*parte formação academica*/
+#academica{
+    width: 1000px;
+    height: 550px;
+    background-color: #024959;
+    margin-top: -19px;
+
+}
+#academica h1{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px 0  0 240px;
+}
+#formacao{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#etec, #Extras{
+    width: 400px;
+    height: 400px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 15px 15px 25px #159A9C;
+}
+#etec h2{
+    padding: 0px 0 0 95px ;
+    color: #fff;
+}
+#etec h3{
+    text-align: center;
+    margin-left: 15px;
+    color: #fff;
+    line-height: 5px;
+}
+#etec p{
+    text-align: center;
+    color: #159A9C;
+}
+#tipo{
+    width: 380px;
+    margin-left: 15px;
+    color: #159A9C;
+    text-align: center;
+}
+
+#Extras h2{
+    color: #fff;
+    margin-left: 70px;
+}
+.cursos{
+    width: 350px;
+    height: 150px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 25px;
+    
+}
+#texto1{
+    width: 350px;
+    height: 150px;
+}
+#texto1 h3{
+    color: #fff;
+    float: left;
+    margin: 17px 68px 0 15px ;
+    line-height: 10px;
+}
+#texto1 p{
+    float: left;
+    margin-left: -60px;
+
+    color: #159A9C;
+}
+/*Experiencia*/
+#Experiencia{
+    background-color: #fff;
+    width: 1000px;
+    height: 700px;
+    margin-top: -30px;
+
+}
+#Experiencia h1{
+    text-align: center;
+    padding: 55px 0 0 0;
+    font-size: 35px;
+    color: #159A9C;
+}
+#exsp{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.profi{
+    width: 400px;
+    height: 400px;
+    margin-top: 150px;
+    background-color: #024959;
+    border: 2px solid #002333;
+    border-radius: 15px;
+    box-shadow: 15px 15px 25px #159A9C;
+}
+.profi h3{
+    padding: 15px 0 0 0 ;
+    text-align: center;
+    margin-left: 15px;
+    color: #fff;
+    line-height: 5px;
+}
+.profi p{
+    text-align: center;
+    margin-left:15px ;
+    color: #159A9C;
+}
+#tipo2{
+    width: 380px;
+    margin-left: 10px;
+    color: #159A9C;
+    text-align: center;
+}
+/*habilidades*/
+#habilidades{
+    width: 1000px;
+    height: 500px;
+    background-color: #002333;
+    margin-top: -18px;
+}
+#habilidades h2{
+    text-align: center;
+    color: #fff;
+    padding: 50px 0 0 0 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#hab{
+    width: 900px;
+    height: 350px;
+    margin: auto;
+   /* background-color: #fff;*/
+}
+#programacao{
+    width: 700px;
+    height: 70px;
+    margin-left:100px ;
+    margin-top: 100px;
+    /*background-color: #159A9C;*/
+    border-radius: 15px;
+    border: 1px solid #159A9C;
+    display: flex;
+    box-shadow: 15px 15px 5px #159A9C;
+
+}
+#programacao h3{
+    color: #159A9C;
+    padding: 0 0 0 15px;
+}
+#programacao img{
+   /* border: 1px solid #024959;*/
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+  
+}
+#logo{
+    height: 50px;
+}
+#logo2{
+    height: 45px;
+    width: 50px;
+}
+#adm{
+    width: 700px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left:100px ;
+    /*background-color: #159A9C;*/
+    border-radius: 15px;
+    border: 1px solid #159A9C;
+    display: flex;
+    box-shadow: 15px 15px 5px #159A9C; 
+
+}
+#adm h3{
+    color: #159A9C;
+    padding: 0 0 0 15px;
+}
+#adm p{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+/* Contato*/
+#contato{
+    width: 1000px;
+    height: 450px;
 }
